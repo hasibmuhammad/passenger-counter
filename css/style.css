@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+
+  font-family: "Poppins", sans-serif;
+
+  background-image: linear-gradient(#fdc830, #f37335);
+}
+
+.passenger-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.heading {
+  font-size: 2.2rem;
+}
+
+.counter {
+  text-align: center;
+  margin: 0;
+}
+
+.increment-btn {
+  width: 70%;
+  padding: 0.8rem 3rem;
+  background-color: unset;
+  font-size: 0.9rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.passenger-btn {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.reset {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#reset {
+  cursor: pointer;
+}
